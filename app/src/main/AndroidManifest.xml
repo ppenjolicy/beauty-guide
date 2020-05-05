@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beautyguide">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Makeup_Eye1"/>
+        <activity android:name=".Brush6" />
+        <activity android:name=".Brush5" />
+        <activity android:name=".Brush4" />
+        <activity android:name=".Brush3" />
+        <activity android:name=".Brush2" />
+
+        <activity android:name=".Eye2" />
+        <activity android:name=".Eye3" />
+        <activity android:name=".Eye4" />
+        <activity
+            android:name=".Eye1"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Brush1" />
+        <activity android:name=".Brow1" />
+        <activity android:name=".Brown2" />
+        <activity android:name=".Brown3" />
+        <activity android:name=".Brown4" />
+        <activity android:name=".Brown5" />
+
+        <activity android:name=".Ab1" />
+        <activity android:name=".Ab2" />
+        <activity android:name=".Ab3" />
+        <activity android:name=".Ab4" />
+        <activity android:name=".Ab1l1" />
+        <activity android:name=".Ab2l1" />
+        <activity android:name=".Ab2l2" />
+        <activity android:name=".Ab2l3" />
+        <activity android:name=".Ab2l4" />
+        <activity android:name=".Ab2l2e1" />
+        <activity android:name=".Ab2l2e2" />
+        <activity android:name=".Ab2l2e1b1"/>
+        <activity android:name=".Ab2l2e1b2"/>
+        <activity android:name=".Ab2l2e1b3"/>
+        <activity android:name=".Ab1l3" />
+        <activity android:name=".Ab1l3e2" />
+        <activity android:name=".Ab1l3e2b3" />
+
+        <activity android:name=".Lip1" />
+        <activity android:name=".Lip2" />
+        <activity android:name=".Lip3" />
+        <activity android:name=".Lip4" />
+        <activity android:name=".Lip5" />
+        <activity android:name=".Lip6" />
+        <activity android:name=".Lip9" />
+        <activity android:name=".Lip8" />
+        <activity android:name=".Lip7" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+    </application>
+
+</manifest>
